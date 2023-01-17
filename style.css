@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@1,800;1,900&family=Ubuntu:wght@300;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.backgraund{
+    position: relative;
+
+    width: 1930px;
+    height: 100px;
+    
+    display: inline-block;
+}
+.backgraund img{
+    max-width: 100%;
+}
+
+.menu{
+    
+    position: sticky;
+    background-color: rgb(46, 46, 46);
+    height: 35px;
+    padding: 20px;
+
+    
+    
+}
+.li_sol{
+    
+    display: inline-block;
+    margin-right: 600px;
+    margin-left: 290px;
+    color: aquamarine;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+}
+.body{
+    width: 1200px;
+    
+    position: fixed;
+   top: 240px;
+   left: 350px;
+display: inline-block;
+text-align: center;
+}
+.body_basliq{
+    font-size: 55px;
+    color: rgb(255, 242, 223);
+    
+}
+.body_cumle{
+    font-size: 95px;
+    text-align: center;
+    color: rgb(255, 242, 223);
+}
+button{
+    width: 320px;
+    height: 70px;
+    font-size: 30px;
+    background-color: rgb(22, 112, 82);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+}
